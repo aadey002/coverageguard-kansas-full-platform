@@ -1,4 +1,4 @@
-// CoverageGuard IQ — Part 4: Submission Gateway — Kansas
+// CoverageGuard IQ — Submission Gateway — Kansas
 // Architect build — CC deploys only
 
 import { useState, useEffect, useRef } from "react";
