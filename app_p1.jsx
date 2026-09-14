@@ -17,11 +17,11 @@ import {
    ============================================================ */
 
 const T = {
-  ink: "#14392A", panel: "#173B2B", panel2: "#1F4A36", line: "#2A4D3B",
-  canvas: "#F3F5F2", surface: "#FFFFFF", surface2: "#F7F8F4",
-  border: "#E3E6DF", borderHi: "#D0D5CB",
-  text: "#16241C", textMid: "#586A5E", textLo: "#8A958B", textInv: "#EAF2EC", textInvLo: "#A7C0B2",
-  teal: "#1F8A53", tealD: "#15663D", indigo: "#C8A02E", amber: "#D4A017",
+  ink: "#2A1A00", panel: "#3A2800", panel2: "#4A3510", line: "#5A4520",
+  canvas: "#FFF9F0", surface: "#FFFFFF", surface2: "#FFF8E7",
+  border: "#E8DDCC", borderHi: "#D4C4A8",
+  text: "#1A1000", textMid: "#6B5530", textLo: "#9A8560", textInv: "#FFFFFF", textInvLo: "#E8D4B0",
+  teal: "#8B6914", tealD: "#6B4F0A", indigo: "#6B4F0A", amber: "#D4A017",
   green: "#34A56A", orange: "#CC7A22", red: "#C8472E",
   low: "#34A56A", moderate: "#D4A017", high: "#CC7A22", critical: "#C8472E",
   sans: 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',

@@ -494,7 +494,7 @@ function Layer5Submission({ c, receipt, setReceipt, submitted, setSubmitted }) {
 
         <div style={{ marginBottom: 12 }}>
           <div style={{ fontSize: 11.5, fontWeight: 700, color: T.navy, marginBottom: 8 }}>Submission checklist</div>
-          {["Log in to MHC with assister credentials", "Navigate to member case — ID: MRN560201", "Upload: Renewal notice + ID + Consent + Paystub", "Note address verification gap in submission comments", "Capture confirmation number"].map((s, i) => (
+          {["Log in to KanCare / KDHE with assister credentials", "Navigate to member case — ID: MRN560201", "Upload: Renewal notice + ID + Consent + Paystub", "Note address verification gap in submission comments", "Capture confirmation number"].map((s, i) => (
             <div key={i} style={{ display: "flex", gap: 8, alignItems: "center", padding: "4px 0", fontSize: 12, color: T.charcoal }}>
               <div style={{ width: 18, height: 18, borderRadius: 4, border: `1.5px solid ${T.silver}`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, cursor: "pointer" }}/>
               {s}
@@ -509,7 +509,7 @@ function Layer5Submission({ c, receipt, setReceipt, submitted, setSubmitted }) {
           <input
             value={receipt}
             onChange={e => setReceipt(e.target.value)}
-            placeholder="Paste confirmation number from MHC portal…"
+            placeholder="Paste confirmation number from KanCare portal…"
             style={{ flex: 1, minWidth: 220, padding: "7px 10px", borderRadius: 8, border: `1px solid ${T.border}`, background: T.canvas, fontSize: 12, color: T.charcoal, outline: "none" }}
           />
           <button
@@ -554,7 +554,7 @@ function Layer6Status({ c, submitted }) {
           </div>
           <div style={{ background: T.canvas, borderRadius: 9, padding: "10px 12px" }}>
             <div style={{ fontSize: 10.5, color: T.muted, marginBottom: 4, fontWeight: 700 }}>Next action</div>
-            <div style={{ fontSize: 12, color: T.charcoal }}>Poll MHC for status update · est. 2–5 business days</div>
+            <div style={{ fontSize: 12, color: T.charcoal }}>Poll KanCare for status update · est. 2–5 business days</div>
           </div>
         </div>
 
